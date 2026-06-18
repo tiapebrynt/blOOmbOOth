@@ -1,1 +1,7 @@
-tes
+BIODATA
+
+Nama                    : Melani Anggraena
+NIM                     : 230102073
+Kelas                   : IF23A
+Tempat, Tanggal Lahir   : Bandung, 20 Januari 2005
+Program Studi           : Teknik Informatika
