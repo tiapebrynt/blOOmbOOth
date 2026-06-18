@@ -1,7 +1,7 @@
 BIODATA
 
 Nama    : Tia Pebriyanti
-NIM     : 230102125
+NIM     : 230102120
 Kelas   : IF23A
 TTL     : Majalengka, 02 Februari 2005
 Prodi   : Teknik Informatika 
