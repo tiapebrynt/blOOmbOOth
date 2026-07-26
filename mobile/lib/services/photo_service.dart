@@ -1,6 +1,6 @@
 import 'api_client.dart';
 import '../models/photo_model.dart';
-
+//ahnaf
 class PhotoService {
   static Future<PhotoModel> update(int id, Map<String, dynamic> data) async {
     final res = await ApiClient.put('/photos/$id', data);
