@@ -42,7 +42,7 @@ class AppConstants {
   ///
   /// - Backend Online / Hosting
   ///     https://domain-kamu.com/api
-  static const String baseUrl = 'http://192.168.1.7:3000/api';
+  static const String baseUrl = 'http://172.16.11.173:3000/api';
 
   /// ==================================================================
   /// Storage URL
@@ -60,5 +60,5 @@ class AppConstants {
   /// Image.network(
   ///   '${AppConstants.storageUrl}/uploads/frame.png',
   /// );
-  static const String storageUrl = 'http://192.168.1.7:3000';
+  static const String storageUrl = 'http://172.16.11.173:3000';
 }

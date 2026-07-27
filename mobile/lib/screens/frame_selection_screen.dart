@@ -125,6 +125,7 @@ class _FrameSelectionScreenState
             content: Text(
               'Gagal memuat frame: $e',
             ),
+            margin: EdgeInsets.only(top: MediaQuery.of(context).padding.top + 8, left: 16, right: 16),
           ),
         );
       }
