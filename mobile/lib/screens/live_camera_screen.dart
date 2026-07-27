@@ -187,7 +187,10 @@ class _LiveCameraScreenState extends State<LiveCameraScreen> with SingleTickerPr
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Gagal mengambil foto: $e')),
+          SnackBar(
+            content: Text('Gagal mengambil foto: $e'),
+            margin: EdgeInsets.only(top: MediaQuery.of(context).padding.top + 8, left: 16, right: 16),
+          ),
         );
       }
     }

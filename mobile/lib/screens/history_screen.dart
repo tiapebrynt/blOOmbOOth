@@ -40,7 +40,10 @@ class _HistoryScreenState extends State<HistoryScreen> {
     } catch (e) {
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          SnackBar(content: Text('Gagal memuat history: $e')),
+          SnackBar(
+            content: Text('Gagal memuat history: $e'),
+            margin: EdgeInsets.only(top: MediaQuery.of(context).padding.top + 8, left: 16, right: 16),
+          ),
         );
       }
     } finally {
@@ -90,13 +93,17 @@ class _HistoryScreenState extends State<HistoryScreen> {
               content: Text('Judul berhasil diperbarui!'),
               backgroundColor: Colors.green,
               behavior: SnackBarBehavior.floating,
+              margin: EdgeInsets.only(top: 80, left: 16, right: 16),
             ),
           );
         }
       } catch (e) {
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text('Gagal mengupdate: $e')),
+            SnackBar(
+              content: Text('Gagal mengupdate: $e'),
+              margin: EdgeInsets.only(top: MediaQuery.of(context).padding.top + 8, left: 16, right: 16),
+            ),
           );
         }
       }
@@ -136,13 +143,17 @@ class _HistoryScreenState extends State<HistoryScreen> {
             const SnackBar(
               content: Text('History berhasil dihapus'),
               behavior: SnackBarBehavior.floating,
+              margin: EdgeInsets.only(top: 80, left: 16, right: 16),
             ),
           );
         }
       } catch (e) {
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text('Gagal menghapus: $e')),
+            SnackBar(
+              content: Text('Gagal menghapus: $e'),
+              margin: EdgeInsets.only(top: MediaQuery.of(context).padding.top + 8, left: 16, right: 16),
+            ),
           );
         }
       }
@@ -180,13 +191,17 @@ class _HistoryScreenState extends State<HistoryScreen> {
             const SnackBar(
               content: Text('Semua history berhasil dihapus'),
               behavior: SnackBarBehavior.floating,
+              margin: EdgeInsets.only(top: 80, left: 16, right: 16),
             ),
           );
         }
       } catch (e) {
         if (mounted) {
           ScaffoldMessenger.of(context).showSnackBar(
-            SnackBar(content: Text('Gagal menghapus: $e')),
+            SnackBar(
+              content: Text('Gagal menghapus: $e'),
+              margin: EdgeInsets.only(top: MediaQuery.of(context).padding.top + 8, left: 16, right: 16),
+            ),
           );
         }
       }
